@@ -1,0 +1,15 @@
+.product {
+  display: grid;
+  gap: 3rem 1.5rem;
+  margin: 4rem auto;
+}
+
+@media (min-width: 768px) {
+  .product {
+    /* margin-top: 2rem; */
+    grid-template-columns: 200px 1fr;
+  }
+  .products-page {
+    margin-top: 3rem;
+  }
+}
